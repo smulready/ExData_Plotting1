@@ -16,5 +16,6 @@ plot_func <- function(df) {
     plot(1:2880, power_data$Global_active_power , type='l', xlab='',
          ylab="Global Active Power (kilowatts)", axes=FALSE)
     axis(1, at = c(1,1441,2880), lab = c("Thu", "Fri", "Sat"))
+    axis(2)
     box()
 }
